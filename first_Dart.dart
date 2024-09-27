@@ -37,8 +37,6 @@ String PrintDataType() {
   return 'Printing data types completed successfully';
 }
 
-
-
 // In Dart, void is a type that represents the absence of a value. It is often used as the return type of a function that does not return any value.
 void main(){
   PrintDataType();
