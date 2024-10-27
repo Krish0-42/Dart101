@@ -8,16 +8,17 @@ double double1 = 6.9;
 bool bool1 = true;
 List list1 = ['Jupiter', 'Earth', "Saturn"];
 // Map string for key and value is int
-Map<String, List<int>> map1 = { // Dictionary
-  'tags' : [1, 1, 2],
-  'num' : [234]
+Map<String, List<int>> map1 = {
+  // Dictionary
+  'tags': [1, 1, 2],
+  'num': [234]
 };
 Set set1 = {2, 'Krishna', 3.2, true, false, null};
 var runes1 = '\u2665'; //Runes
 Symbol symbol1 = #PrintDataType;
 int? var1 = null; // (The ? means the variable can be null)
 // dynamic datatype can be change in runtime!
-dynamic dynamic1 = 'Hello from dynamic'; 
+dynamic dynamic1 = 'Hello from dynamic';
 
 String PrintDataType() {
   print("Hello World!!!");
@@ -37,9 +38,23 @@ String PrintDataType() {
   return 'Printing data types completed successfully';
 }
 
+// Conditional Formatting:
+
+void Conditional() {
+  int num1 = 5;
+  if (num1 > 10) {
+    print('Number is greater than 10');
+  } else if (num1 == 5) {
+    print('Number is 5');
+  } else {
+    print('Number is less than 10');
+  }
+}
+
 // In Dart, void is a type that represents the absence of a value. It is often used as the return type of a function that does not return any value.
-void main(){
-  PrintDataType();
+void main() {
+  // PrintDataType();
+  Conditional();
 }
 
 // use this part for additional notes:
